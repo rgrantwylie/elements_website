@@ -1,0 +1,330 @@
+/* ---- CSS RESET-----*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+    
+}
+
+body{
+    
+width: 100%;
+    max-width: 5120px;
+     font-family: 'Open Sans', sans-serif;
+    
+    background: -webkit-linear-gradient(left, white , #ebebeb); /* For Safari 5.1 to 6.0 */
+    color: #333;
+    line-height: 1.8;  
+
+}
+
+#headersection{
+    
+    width: 100%;
+    height:500px;
+    background-color: aqua;
+background-image: url("../images/lithium_headerimage.png")  ;
+      background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#contentarea{
+    
+     width: 100%;
+    height:1200px;
+    background-color: transparent;
+    
+}
+
+#description{
+    
+    width: 30%;
+    height:400px;
+    margin-left: 20%;
+    float: left;
+    background-color: #f5f5f5;
+
+}
+
+#atomicdiagram{
+    
+    width: 30%;
+    height:400px;
+    margin-right: 20%;
+    float: right;
+    background-color: #f5f5f5;
+
+}
+
+#atomicnumber{
+    width: 20%;
+    height:300px;
+    margin-left: 20%;
+    float: left;
+    background-color: #f5f5f5;
+
+    
+}
+
+#atomicmass{
+    width: 20%;
+    height:300px;
+    float: left;
+    background-color: #f5f5f5;
+}
+
+#meltingpoint{
+    width: 20%;
+    height:300px;
+    float: left;
+    background-color: #f5f5f5;
+}
+
+#boilingpoint{
+    width: 20%;
+    height:300px;
+    margin-left: 20%;
+    float: left;
+    background-color: #f5f5f5;
+
+    
+}
+
+#group{
+    width: 20%;
+    height:300px;
+    float: left;
+    background-color: #f5f5f5; 
+}
+
+#period{
+    width: 20%;
+    height:300px;
+    float: left;
+    background-color: #f5f5f5;
+}
+
+img{
+
+}
+
+    h1{
+    color: #003da5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4em;
+    text-align: center;
+    padding-top: 5%;
+    margin-left:45%;
+    margin-right:45%;
+    line-height: 75px;
+    color: #f5f5f5;
+}
+
+
+    h2{
+    color: #003da5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3.5em;
+    padding-top: 50px;
+    margin-left:7.5%;
+    margin-right:7.5%;
+    line-height: 70px;
+    color: #000;
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3em;
+    padding-top: 15px;
+    margin-left:7.5%;
+    margin-right:7.5%;
+    line-height: 70px;
+    color: #000;
+}
+
+
+
+
+h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    margin-top: 5%;
+    margin-left:15%;
+    margin-right:15%;
+    text-align: center;
+    line-height: 35px;
+    color: #000;
+}
+
+p{
+    font-size: 1.25em;
+    margin-top: 50px;
+    margin-left:7.5%;
+    margin-right:7.5%;
+    color: #000;
+    line-height: 30px;
+}
+
+/* ---- LAPTOP-----*/
+
+@media (max-width: 100em){
+    
+    body{
+    
+width: 100%;
+    max-width: 5120px;
+     font-family: 'Open Sans', sans-serif;
+
+    color: #f5f5f5;
+    line-height: 1.8;  
+
+}
+ 
+  #headersection{
+    
+    width: 100%;
+    height:500px;
+    background-color: aqua;
+
+}
+
+#contentarea{
+    
+     width: 100%;
+    height:1200px;
+    background-color: transparent;
+    
+}
+
+#description{
+    
+    width: 45%;
+    height:400px;
+    margin-left: 5%;
+    float: left;
+    background-color: #f5f5f5;
+
+}
+
+#atomicdiagram{
+    
+    width: 45%;
+    height:400px;
+    margin-right: 5%;
+    float: right;
+    background-color: #f5f5f5;
+
+}
+
+#atomicnumber{
+    width: 30%;
+    height:300px;
+    margin-left: 5%;
+    float: left;
+    background-color: #f5f5f5;
+
+    
+}
+
+#atomicmass{
+    width: 30%;
+    height:300px;
+    float: left;
+    background-color: #f5f5f5;
+}
+
+#meltingpoint{
+    width: 30%;
+    height:300px;
+    float: left;
+    background-color: #f5f5f5;
+}
+
+#boilingpoint{
+    width: 30%;
+    height:300px;
+    margin-left: 5%;
+    float: left;
+    background-color: #f5f5f5;
+
+    
+}
+
+#group{
+    width: 30%;
+    height:300px;
+    float: left;
+    background-color: #f5f5f5; 
+}
+
+#period{
+    width: 30%;
+    height:300px;
+    float: left;
+    background-color: #f5f5f5;
+}
+
+img{
+
+
+}
+
+    h1{
+    color: #003da5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3.25em;
+    text-align: center;
+    padding-top: 8.5%;
+    margin-left:40%;
+    margin-right:40%;
+    line-height: 75px;
+    color: #000;
+}
+
+
+    h2{
+    color: #003da5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.75em;
+    padding-top: 50px;
+    margin-left:7.5%;
+    margin-right:7.5%;
+    line-height: 70px;
+    color: #000;
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.25em;
+    padding-top: 15px;
+    margin-left:7.5%;
+    margin-right:7.5%;
+    line-height: 70px;
+    color: #000;
+}
+
+
+
+
+h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    margin-top: 5%;
+    margin-left:15%;
+    margin-right:15%;
+    text-align: center;
+    line-height: 35px;
+    color: #000;
+}
+
+p{
+    font-size: 1.25em;
+    margin-top: 50px;
+    margin-left:7.5%;
+    margin-right:7.5%;
+    color: #000;
+    line-height: 30px;
+}
+}
